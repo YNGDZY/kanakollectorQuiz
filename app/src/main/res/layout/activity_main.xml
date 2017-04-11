@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deezy.quizredux.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/main_background">
+    <TextView
+       style="@style/HeaderStyle"
+        android:text="@string/study_header"
+        android:id="@+id/study"
+        android:gravity="center_horizontal"
+        android:textSize="24dp"
+        android:background="@color/study_title"
+        android:layout_margin="16dp"
+        />
+
+    <TextView
+        style="@style/HeaderStyle"
+        android:text="@string/test_header"
+        android:id="@+id/test"
+        android:gravity="center_horizontal"
+        android:textSize="24dp"
+        android:background="@color/test_title"
+        android:layout_margin="16dp"/>
+
+
+    <TextView
+        style="@style/HeaderStyle"
+        android:text="@string/feedback_header"
+        android:id="@+id/feedback"
+        android:gravity="center_horizontal"
+        android:textSize="24dp"
+        android:background="@color/feedback_title"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>

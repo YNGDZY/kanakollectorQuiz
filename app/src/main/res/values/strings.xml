@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Quiz Redux</string>
+    <string name="study_header">Study</string>
+    <string name="test_header">Test</string>
+    <string name="high_score_header">High Scores</string>
+    <string name="feedback_header">Feedback</string>
+    <string name="feedback_text">I would love to hear what you think about this app! \nPlease leave your thoughts below!</string>
+    <string name="edit_text_hint">Please enter feedback here!</string>
+    <string name="submit_button">Submit</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Kanaguide_Title">Kana Guide</string>
+    <string name="Hirigana_Title">Hirigana</string>
+    <string name="Katakana_Title">Katakana</string>
+    <string name="Kanaguide">The Japanese writing system uses pictoral characters to convey meaning.
+        It contains 3 major sets of characters: Hirigana, Katakana and Kanji. \n \n
+        Hirigana is a basic alphabet which contains characters each depicting an individual syllable
+        such as ka or me. \n \n
+        Katakana is similar to hirigana, but contains slightly different characters, but you can see the similarity.
+        The purpose of katakana is to write words that are taken from foreign languages like computer or beer. \n \n
+        Kanji are more complex, and there a lot more of them than the basic kana.
+        Kanji are characters from the chinese alphabet that have been given japanese meanings.
+        They are characters that convey meaning through a picture depiction. For example the kanji for horse looks like an ancient artists rendition of a horse.
+        Kanji are usually built up for multiple syllables and can be combined with other kanji for different meanings. \n \n
+        You can use combinations of hirigana to spell the pronunciation of kanji.
+        Kanji have two different pronunciations, onyomi and kunyomi. Onyomi is the chinese pronunciation and kunyomi is the Japanese.
+        Kunyomi is generally used for stand alone kanji and onyomi is generally used for combined kanji.
+        Kanji are used wherever possible but there are still some words that need to be spelt with hirigana and katakana. \n \n
+        There is a set way of writing kana which are based on a few rules that determine stroke order.
+        Strokes should be left to write and top to bottom, prioritising horizontal strokes.\n \n
+        The sections of this app are designed to help study hirigana and katakana with an interactive test. \n \n
+        Good luck and have fun!</string>
+    <string name="Kanaguide_text_title">Kana \n</string>
+    <string name="test_intro">Welcome to the test section, the following pages will contain multiple choice questions to
+    test your knowledge of kana. Just select your answer and press the continue button to go onto the next question.
+    Tap the button below to start.\n\nGood luck!</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="title_1">Question 1 of 10</string>
+    <string name="title_2">Question 2 of 10</string>
+    <string name="title_3">Question 3 of 10</string>
+    <string name="title_4">Question 4 of 10</string>
+    <string name="title_5">Question 5 of 10</string>
+    <string name="title_6">Question 6 of 10</string>
+    <string name="title_7">Question 7 of 10</string>
+    <string name="title_8">Question 8 of 10</string>
+    <string name="title_9">Question 9 of 10</string>
+    <string name="title_10">Question 10 of 10</string>
+    <string name="question_1">Which character is this?</string>
+    <string name="question_2">What set of characters is this kana from?</string>
+    <string name="congrats">Congratulations!\n \nYou scored:</string>
+    <string name="finish">Finish!</string>
+    <string name="retry">Retry?</string>
+
+</resources>

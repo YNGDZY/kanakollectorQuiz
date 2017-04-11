@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fc0000</color>
+    <color name="colorPrimaryDark">#cc0000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="hirigana_view_color">#fc0000</color>
+    <color name="katakana_view_color">#2900f9</color>
+    <color name="kanaguide_view_color">#00f2ff</color>
+    <color name="study_title">#ffffff</color>
+    <color name="test_title">#ffffff</color>
+    <color name="highscore_title">#ffffff</color>
+    <color name="feedback_title">#ffffff</color>
+    <color name="main_background">#fc0000</color>
+</resources>
