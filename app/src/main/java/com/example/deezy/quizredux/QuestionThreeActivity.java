@@ -71,7 +71,7 @@ public class QuestionThreeActivity extends AppCompatActivity {
 
 
         Intent NQIntent = new Intent(QuestionThreeActivity.this, QuestionFourActivity.class);
-        NQIntent.putExtra("Score",score);
+        NQIntent.putExtra("SCORE",score);
         startActivity(NQIntent);
 
     }

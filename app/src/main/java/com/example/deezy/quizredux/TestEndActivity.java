@@ -22,7 +22,9 @@ public class TestEndActivity extends AppCompatActivity {
 
         setContentView(R.layout.test_end);
 
-        int score = getIntent().getIntExtra("SCORE",0);
+
+
+        int score = getIntent().getIntExtra("SCORE",-1);
 
 
 
