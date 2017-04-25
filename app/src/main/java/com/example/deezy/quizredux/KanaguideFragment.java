@@ -8,14 +8,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-/**
- * A simple {@link Fragment} subclass.
- */
+
 public class KanaguideFragment extends Fragment {
 
 
     public KanaguideFragment() {
-        // Required empty public constructor
+
     }
 
 
