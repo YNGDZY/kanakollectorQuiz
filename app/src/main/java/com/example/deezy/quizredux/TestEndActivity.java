@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import static android.R.attr.button;
 import static android.os.Build.VERSION_CODES.N;
@@ -25,6 +26,13 @@ public class TestEndActivity extends AppCompatActivity {
 
 
         int score = getIntent().getIntExtra("SCORE",-1);
+
+        Context context = getApplicationContext();
+        CharSequence text = "You scored " + String.valueOf(score);
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
 
 
 

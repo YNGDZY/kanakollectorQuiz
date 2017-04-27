@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -29,7 +30,7 @@ public class QuestionEightActivity extends AppCompatActivity {
 
 
 
-        setContentView(R.layout.activity_question);
+        setContentView(R.layout.activity_question_checkbox);
         Button next = (Button) findViewById(R.id.Q_Button);
 
         TextView Title = (TextView) findViewById(R.id.Q_title);
@@ -39,16 +40,16 @@ public class QuestionEightActivity extends AppCompatActivity {
         Image.setImageResource(R.drawable.i_hirigana_he);
 
         TextView Question = (TextView) findViewById(R.id.Q_Text);
-        Question.setText(R.string.question_1);
+        Question.setText(R.string.question_8);
 
-        RadioButton RB1 = (RadioButton) findViewById(R.id.Q_Radio_Button_1);
-        RB1.setText("He");
-        RadioButton RB2 = (RadioButton) findViewById(R.id.Q_Radio_Button_2);
-        RB2.setText("Ho");
-        RadioButton RB3 = (RadioButton) findViewById(R.id.Q_Radio_Button_3);
-        RB3.setText("Ke");
-        RadioButton RB4 = (RadioButton) findViewById(R.id.Q_Radio_Button_4);
-        RB4.setText("Sa");
+        CheckBox CB1 = (CheckBox) findViewById(R.id.Q_Checkbox_1);
+        CB1.setText("He");
+        CheckBox CB2 = (CheckBox) findViewById(R.id.Q_Checkbox_2);
+        CB2.setText("Katakana");
+        CheckBox CB3 = (CheckBox) findViewById(R.id.Q_Checkbox_3);
+        CB3.setText("Hirigana");
+        CheckBox CB4 = (CheckBox) findViewById(R.id.Q_Checkbox_4);
+        CB4.setText("Ta");
 
 
 
@@ -63,9 +64,11 @@ public class QuestionEightActivity extends AppCompatActivity {
     public void nextButton(View view){
         int score = getIntent().getIntExtra("SCORE",0);
 
-        RadioButton RB1 = (RadioButton) findViewById(R.id.Q_Radio_Button_1);
-        Boolean QA = RB1.isChecked();
-        if(QA){
+        CheckBox CB1 = (CheckBox) findViewById(R.id.Q_Checkbox_1);
+        CheckBox CB3 = (CheckBox) findViewById(R.id.Q_Checkbox_3);
+        Boolean QA = CB1.isChecked();
+        Boolean QA2 = CB3.isChecked();
+        if(QA||QA2){
             score = score + 1;
         }
 

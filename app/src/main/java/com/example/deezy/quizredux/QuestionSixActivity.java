@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -28,7 +29,7 @@ public class QuestionSixActivity extends AppCompatActivity {
 
 
 
-        setContentView(R.layout.activity_question);
+        setContentView(R.layout.activity_question_entertext);
         Button next = (Button) findViewById(R.id.Q_Button);
 
         TextView Title = (TextView) findViewById(R.id.Q_title);
@@ -38,16 +39,8 @@ public class QuestionSixActivity extends AppCompatActivity {
         Image.setImageResource(R.drawable.i_katakana_tsu);
 
         TextView Question = (TextView) findViewById(R.id.Q_Text);
-        Question.setText(R.string.question_1);
+        Question.setText(R.string.question_6);
 
-        RadioButton RB1 = (RadioButton) findViewById(R.id.Q_Radio_Button_1);
-        RB1.setText("Sa");
-        RadioButton RB2 = (RadioButton) findViewById(R.id.Q_Radio_Button_2);
-        RB2.setText("Ma");
-        RadioButton RB3 = (RadioButton) findViewById(R.id.Q_Radio_Button_3);
-        RB3.setText("Tsu");
-        RadioButton RB4 = (RadioButton) findViewById(R.id.Q_Radio_Button_4);
-        RB4.setText("Se");
 
 
 
@@ -64,10 +57,22 @@ public class QuestionSixActivity extends AppCompatActivity {
     public void nextButton(View view){
         int score = getIntent().getIntExtra("SCORE",0);
 
-        RadioButton RB3 = (RadioButton) findViewById(R.id.Q_Radio_Button_3);
-        Boolean QA = RB3.isChecked();
+        EditText editText = (EditText) findViewById(R.id.Q_EditText);
+        CharSequence answer = "tsu";
+        CharSequence answer2 = "Tsu";
+
+        CharSequence user = editText.getText();
+
+        Boolean QA = false;
+
+        if(answer == user){
+            QA = true;
+        }else if(answer2 == user){
+            QA = true;
+        }
+
         if(QA){
-            score = score + 1;
+            score = score +1;
         }
 
 

@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,6 +19,7 @@
         </activity>
         <activity
             android:name=".StudyActivity"
+            android:screenOrientation="portrait"
             android:label="@string/study_header"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -27,6 +28,7 @@
         </activity>
         <activity
             android:name=".TestActivity"
+            android:screenOrientation="portrait"
             android:label="@string/test_header"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -35,6 +37,7 @@
         </activity>
         <activity
             android:name=".HighScoreActivity"
+            android:screenOrientation="portrait"
             android:label="@string/high_score_header"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -43,26 +46,41 @@
         </activity>
         <activity
             android:name=".FeedbackActivity"
+            android:screenOrientation="portrait"
             android:label="@string/feedback_header"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".HiriganaActivity" />
-        <activity android:name=".KatakanaActivity" />
-        <activity android:name=".KanaguideActivity" />
-        <activity android:name=".QuestionOneActivity" />
-        <activity android:name=".QuestionTwoActivity" />
-        <activity android:name=".QuestionThreeActivity" />
-        <activity android:name=".QuestionFourActivity" />
-        <activity android:name=".QuestionFiveActivity" />
-        <activity android:name=".QuestionSixActivity" />
-        <activity android:name=".QuestionSevenActivity" />
-        <activity android:name=".QuestionEightActivity" />
-        <activity android:name=".QuestionNineActivity" />
-        <activity android:name=".QuestionTenActivity" />
-        <activity android:name=".TestEndActivity"></activity>
+        <activity android:name=".HiriganaActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".KatakanaActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".KanaguideActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuestionOneActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuestionTwoActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuestionThreeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuestionFourActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuestionFiveActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuestionSixActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuestionSevenActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuestionEightActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuestionNineActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QuestionTenActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TestEndActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

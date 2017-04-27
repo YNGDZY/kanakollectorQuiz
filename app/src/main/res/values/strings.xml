@@ -49,6 +49,8 @@
     <string name="title_10">Question 10 of 10</string>
     <string name="question_1">Which character is this?</string>
     <string name="question_2">What set of characters is this kana from?</string>
+    <string name="question_6">Enter the characters sound</string>
+    <string name="question_8">Select any boxes that describe this</string>
     <string name="congrats">Congratulations!\n \nYou scored:</string>
     <string name="finish">Finish!</string>
     <string name="retry">Retry?</string>
