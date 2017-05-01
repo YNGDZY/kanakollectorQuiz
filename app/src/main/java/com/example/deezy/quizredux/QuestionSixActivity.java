@@ -75,7 +75,6 @@ public class QuestionSixActivity extends AppCompatActivity {
             score = score +1;
         }
 
-
         Intent NQIntent = new Intent(QuestionSixActivity.this, QuestionSevenActivity.class);
         NQIntent.putExtra("SCORE",score);
         startActivity(NQIntent);
